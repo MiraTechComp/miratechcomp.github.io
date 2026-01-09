@@ -3358,3 +3358,8 @@ input, select, textarea {
 			}
 
 	}
+
+
+#content > img {
+	width: 100% !important;
+}
