@@ -21,5 +21,8 @@ form.onsubmit = function(e) {
 	}
 	document.cookie = "token=" + input.value + "; max-age=" + tmr;
 	var octo = Octokat({"token" : input.value});
-	octo.me.fetch().then((v1, er)=>{if(er) {document.getElementById('ans').innerHTML = "Err: user not found!"}})
+	octo.me.fetch().then((v1, er)=>{
+		if(er) {document.getElementById('ans').innerHTML = "Err: user not found!";}
+		else {location.href = "./account.html"}
+	});
 }
