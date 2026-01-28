@@ -65,7 +65,7 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-input, select, textarea {
+input, select, option, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
@@ -97,7 +97,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	body, input, select, textarea {
+	body, input, select, option, textarea {
 		color: #474747;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
@@ -2817,7 +2817,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, select, option, textarea {
 				font-size: 14pt;
 				line-height: 1.5em;
 			}
@@ -2836,7 +2836,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, select, option, textarea {
 				font-size: 13pt;
 				line-height: 1.5em;
 			}
@@ -2903,7 +2903,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, select, option, textarea {
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
@@ -2924,7 +2924,7 @@ input, select, textarea {
 				overflow-x: hidden;
 			}
 
-			body, input, select, textarea {
+			body, input, select, option, textarea {
 				font-size: 13pt;
 			}
 
@@ -3226,7 +3226,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, select, option, textarea {
 				font-size: 11pt;
 				line-height: 1.35em;
 			}
@@ -3386,4 +3386,16 @@ input, select, textarea {
 
 #comments > header > form > * {
 	margin-bottom: 10px;
+}
+
+.logbuff{
+	width: 50%;
+}
+
+.logouter {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
