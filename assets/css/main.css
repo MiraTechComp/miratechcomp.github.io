@@ -2674,7 +2674,7 @@ input, select, option, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/mbanner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -3398,4 +3398,45 @@ input, select, option, textarea {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+}
+
+pre.code {
+	background-color: #282923;
+	color: white;
+	/*font: Consolas !important;*/
+	font-family: consolas;
+	user-select: all;
+	width: fit-content;
+	padding: 5px;
+} 
+
+.md-image {
+	width: 100% !important; 
+}
+
+pre.quote {
+	background-color: #5155BFC0;
+	color: white;
+	font-family: consolas;
+	width: fit-content;
+	padding: 2px;
+}
+
+.md-h1 {
+	font-size: 30px;
+}
+.md-h2 {
+	font-size: 25px;
+}
+.md-h3 {
+	font-size: 20px;
+}
+.md-h4 {
+	font-size: 18px;
+}
+.md-h5 {
+	font-size: 16px;
+}
+.md-h6 {
+	font-size: 14px;
 }
