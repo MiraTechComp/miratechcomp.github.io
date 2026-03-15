@@ -3440,3 +3440,22 @@ pre.quote {
 .md-h6 {
 	font-size: 14px;
 }
+
+#toset {
+	/*position: absolute;*/
+	/*top: 50px;*/
+	/*left: 0px;*/
+	z-index: 200;
+	/*background-color: gray;*/
+	flex-direction: column;
+	position: absolute;
+}
+
+.dl1{
+	/*position: absolute;*/
+	flex-direction: column;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	/*background-color: gray; */
+}

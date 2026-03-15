@@ -23,17 +23,9 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Главная</a></li>
-								<li class="current">
+								<li class="current" onmouseover="document.getElementById('toset').style.display = 'flex';" onmouseout="document.getElementById('toset').style.display = 'none';">
 									<a href="projects.html">Проекты</a>
-									<ul id="toset">
-										<!-- <li>
-											<a href="projects.html?basic">Базовые</a>
-											<ul>
-												<li><a href="projects.html?1">CO2aircleaner</a></li>
-											</ul>
-										</li>
-										<li><a href="projects.html">Пользовательские</a></li> -->
-									</ul>
+									<div id="toset" class="dropotron" style="display: none;"></div>
 								</li>
 								<li><a href="arcticle.html">Статьи</a></li>
 								<li><a href="programs.html">Библиотеки</a></li>
@@ -67,7 +59,7 @@
 												<p>
 													<ul>
 														<li>
-															<a href="./projects.html?basic">Базовые</a>
+															<a href="./projects.html?Базовые">Базовые</a>
 															<ol>
 																<li><a href="./projects.html?1">AirCleaner</a></li>
 																<li><a href="#">WaterCleaner</a></li>
@@ -223,14 +215,15 @@
 		</div>
 
 		<!-- Scripts -->
+			<script src="cookie.js"></script>
 			<script src="project-disp.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- <script src="assets/js/jquery.dropotron.min.js"></script> -->
+			<!-- <script src="assets/js/browser.min.js"></script> -->
+			<!-- <script src="assets/js/breakpoints.min.js"></script> -->
+			<!-- <script src="assets/js/util.js"></script> -->
+			<!-- <script src="assets/js/main.js"></script> -->
 			<script src="octokat.js/dist/octokat.js"></script>
+			<script src="hackerdrop.js"></script>
 			<script src="project-main.js"></script>
 
 	</body>
